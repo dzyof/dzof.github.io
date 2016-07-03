@@ -16,6 +16,7 @@ body{
 }
 .wrapper{
 	width: 	960px;
+	height: 100%;
 	margin: 0 auto;	
 }
 
@@ -70,23 +71,21 @@ nav li.current a{
  	src:url(/fonts/Treb.ttf);
  } 
 .slider-block {
-	/*background: url(img/bgSlider.png) no-repeat 0 0; */
 	background: #4F27D4;
-
 	height: 100%;
-	padding: 85px 50px 0;		
+	padding: 85px 50px 0 0;		
 	color: #fff;
 	font-size: 29px;
 	font-family: TREB;
 	line-height: 34px;
+	min-height: calc(100vh - 80px);
 }
 .fs35{
 	font-size: 35px;
 	font-style:bold;
 	text-transform: uppercase;
-	margin: 10px, 0px, 35px;
-  padding: 0 0 250px 0;
-	letter-spacing: -2px;
+	margin: 10px, 0px, 35px 0;
+    letter-spacing: -2px;
 }
 /*begin slider*/
 .flexslider {
@@ -332,6 +331,7 @@ html[xmlns] .flexslider .slides {
 footer{
 	background:  #0f4db6;
 	border-radius: 0 0 6px 6px;
+	height: 80px;
 
 }
 .footer li {
