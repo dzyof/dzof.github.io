@@ -50,20 +50,16 @@ nav li a{
 }
 nav li a:hover{
 	background:  url(img/bg-button.png) repeat-x 0 0;
-	
 	color: #fff;
 	border-radius: 2px;
 	
 }
 nav li.current a{
 	background:  url(img/bg-button.png) repeat-x 0 0;
-	
 	color: #fff;
 	border-radius: 2px;
 	border:1px solid #000 ;
-
 }
-
 
 /*HEADER END*/
 
@@ -351,7 +347,6 @@ p{
 	color: #fff;
 }
 li .fa:hover {
-	
 	color: #ddd;
 }
 
@@ -365,27 +360,23 @@ li .fa:hover {
 		width: 100%;
 		padding: 0;
 	}
+
 	nav li{
 		float: left;
 		padding: 0;
 		width: 25%;
 		margin: 10px;
-
-
 	}
+
 	h1{
 		margin: 0;
 	}
 	
 	.wrapper{
 		width: 100%;
-
 		background: #fff;
 	}	
-	ul li {
-		padding: 0;
-	}
-
+	
 	h1{
 		display: none;
 	}
@@ -394,43 +385,40 @@ li .fa:hover {
 	 .flexslider{
 		display: none;
 	}
+
     .slider-block{
-	background: #0f4db6;
+		background: #0f4db6;
+	}
 
 
-}
+	nav li:a
+	{
+		content: "";
+		display: table;
+		clear:both;
+	}
 
-.wrapper:after,
-nav li:a
-{
-	content: "";
-	display: table;
-	clear:both;
-}
+	footer{
+		width: 100%
+	}
 
-footer{
-	width: 100%
-}
+	.social{
+		padding: 0;
+		margin: 3px;
+	}
+	p{
+		padding: 0;
+	}
+	.footer li{
+		padding: 3px;
+	}
 
-.social{
-	padding: 0;
-	margin: 3px;
-
-}
-p{
-	padding: 0;
-
-}
-.footer li{
-	padding: 3px;
-}
-
-}
-/*clear fix*/
-.footer:after
-{
-	content: "";
-	display: table;
-	clear:both;
-}
+	}
+	/*clear fix*/
+	.footer:after
+	{
+		content: "";
+		display: table;
+		clear:both;
+	}
 
