@@ -73,7 +73,7 @@ nav li.current a{
 	/*background: url(img/bgSlider.png) no-repeat 0 0; */
 	background: #4F27D4;
 
-	height: 332px;
+	height: 100%;
 	padding: 85px 50px 0;		
 	color: #fff;
 	font-size: 29px;
