@@ -74,7 +74,8 @@ nav li.current a{
  	src:url(/fonts/Treb.ttf);
  } 
 .slider-block {
-	background: url(img/bgSlider.png) no-repeat 0 0; 
+	/*background: url(img/bgSlider.png) no-repeat 0 0; */
+	background: #4F27D4;
 
 	height: 332px;
 	padding: 85px 50px 0;		
