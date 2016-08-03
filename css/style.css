@@ -1,0 +1,473 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*------HEADER---------------------------------------------------------*/
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #FDFDFE;
+    border-bottom: 2px solid #4B75A3;
+}
+.navbar.row{
+    height: 60px;
+    white-space: nowrap;
+}
+img#logoImg{
+    width: 140px;
+    height: 45px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+#vavig ul a{
+    color: #000;
+    /*font-family: "MyriadPro";*/
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 8px;
+    display: inline-block;
+    padding: 8px 10px;
+}
+#vavig ul a:hover {
+     color: #4B75A3;
+}
+#btn_exit{
+    width: 61px;
+    margin-top: 11px;
+    margin-right: 0;
+    padding: 4px 15px;
+    border-radius: 8px;
+    background-color: #4B70A2;
+}
+#btn_exit a{
+    color: #fff;
+}
+#btn_exit a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.box{
+    overflow: hidden;
+}
+.in_line{
+     float: left;
+ }
+.choise_lan_div{
+    margin: 15px 0 0 25px;
+    width: 80px;
+}
+.ch_lang{
+    width: 85px;
+    height: 20px;
+}
+.nav > li > a{
+    padding: 1px 5px;
+}
+li>a.brd{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.navbar-inverse .navbar-nav > li > a.no_act { /* changed here */
+    color: #4B70B6;
+    text-decoration: underline;
+}
+
+/*----END HEADER---------------------------------------------------------*/
+
+/*----name_content-------------------------------------------*/
+.name_content{
+    color: #4B70B6;
+    border-bottom: 2px solid #7d807a;
+    margin-bottom: 10px;
+}
+
+/*----END of name_content-------------------------------------------*/
+
+
+/*----------BLOCK WITH PRICE---------------------------*/
+
+span.level{
+    color: #4B70B6;
+    font-weight: bold;
+    font-size: 17px;
+}
+img.courseImg{
+    width: 115px;
+    height: 115px;
+    margin: 15px 1px;
+}
+.bl_price{
+    color: #667;
+    font-size: 17px;
+    padding: 0 10px;
+}
+.col_bl{
+    color: #4B70B6;
+    font-size: 16px;
+}
+a.level_img{
+    text-decoration: none;
+}
+.un_line{
+    text-decoration: underline;
+}
+.old_price{
+    color: #e41818;
+    text-decoration: line-through;
+}
+.new_price{
+    font-weight: bold;
+}
+.discount{
+    /*padding-left: 75px;*/
+    color: #078a0d;
+    margin-left: 85px;
+}
+.star_btn{
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+.btn_brd{
+    padding-bottom: 8px;
+    border-bottom: 1px solid #7d807a;
+}
+.btn_centr{
+    margin-left: 55px;
+}
+.btn_centr:hover{
+    background-color: #454545;
+}
+
+
+/*==================dropdown + navigation from dzyof=================*/
+/*begin*/
+#drop-icon{ background: #4b75a4;}
+#drop-icon:hover{ background: #4B75A4;}
+.dropdown .btn:hover{ background-color: #4B75A4;}
+.dropdown .btn:focus{ background-color: #4B75A4;}
+#soc-navigation{
+    position: fixed;
+    z-index: 9998;
+    float: left;
+    margin-left: 15px; 
+    top: 110px;
+}
+
+.dropdown{
+    position: fixed;
+    top: 5px;
+    margin-left: 15px;
+    z-index: 1;
+}
+.dropdown-language,.dropdown li a:hover{
+    background: #fff;
+    color: #4b75a4;
+}
+.dropdown-menu{
+    position: fixed;
+    top: 0px;
+    margin-left: 0px;
+    z-index: -1;
+    width: 250px;
+    padding-left: 50px;
+}
+
+#dropdown-language{
+    display: block;
+    margin-left: 90px;
+    margin-top: 10px;
+    clear: both;
+    position: absolute;
+}
+li .dropdown-language-active {
+    color: #999999;
+    text-decoration: none;
+    padding-right: 5px;
+}
+li .dropdown-language-border{
+     border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0 5px;
+}
+.dropdown-language{ padding-left: 15px;}
+
+.dropdown-menu li a{
+   
+     background: #fff;
+     text-align: left;
+    list-style: none;
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: none;
+}
+.dropdown-menu li{ text-align: left;}
+
+.drop-button{ padding: 20px 15px;} 
+.line{
+    width: 85%;
+    margin: 0 auto;
+    border: 1px solid #4b75a4;
+    clear: both;
+}
+/*==================social groop start=========================*/
+
+
+.social-groop{
+    margin-top: 50px;
+    position: fixed;
+    display: inline-block;
+    left: 15px;
+    top: 55px;
+    z-index: 2;
+}
+#soc-f, #soc-g, #soc-in,#soc-t,#soc-vk{
+    padding: 0;
+    width: 100%;
+    height: 47px;
+    display: inline-block;
+    border-radius: 3px 3px 0 0;
+}
+#soc-f{ background-color: #44678E;}
+#soc-g{ background-color: #AD1215;}
+#soc-in{ background-color: #0095BB;}
+#soc-t{ background-color: #48AEE5;}
+#soc-vk{ background-color: #44678E;}
+.social-groop .fa{
+    margin-top:  10px;
+    color: #fff;
+}
+.social-groop div{
+    width: 45px;
+    height: 70px;
+    padding: 5px;
+}
+
+.social-groop span{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #FFF;
+    border: 1px solid #d1d1d1;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    height: 20px;
+    line-height: 20px;
+}
+.social-groop .fa{ font-size: 25px;}
+
+
+/*==================social groop END=========================*/
+/*--------------------------END*/
+/*==================dropdown + navigation from dzyof=================*/
+
+
+/*----------END of BLOCK WITH PRICE---------------------------*/
+
+/*--------------- START of Modules block ---------------------- */
+
+.moduleList {
+    font-family: "MyriadPro", sans-serif;
+    font-size: 16px;
+}
+
+.moduleItem {
+    background-color: #efefef;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+.moduleProgress {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.moduleOrder {
+    font-weight: 700;
+}
+
+.moduleLink, .moduleLink:hover {
+    color: #666666;
+    text-decoration: none;
+}
+
+.moduleList h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: inherit;
+    color: #4B75A4;
+    display: inline-block;
+}
+
+.moduleList hr {
+    max-width: 300px;
+    margin: 5px 0 0 0;
+    color: #cccccc;
+    border-style: inset;
+}
+
+/*--------------- END of Modules block ---------------------- */
+
+/* --------------- FOR WHOM block ----------------------------*/
+.for {
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+.for p {
+    color: #4B75A4;
+    padding: 0;
+    margin: 0 0 0 -14px;
+    font-weight: 700;
+}
+
+.for a {
+    color: #4B75A4;
+    text-decoration: underline;
+}
+
+.for li {
+    color: #999999;
+    padding-left: 0px;
+}
+
+
+/* --------------- END OF FOR WHOM block -------------------*/
+
+/* FOOTER and SIDENAV temp styles go here */
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #fff;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+
+/*Footer*/
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    margin: 5px 0;
+    width: 100%;
+    height: 90px;
+    /*background-color: black;*/
+    border-bottom: 1px solid #44bdf6;
+}
+
+
+.row .footer-content > *:not(.button-up){
+    height: 90px;
+    /*border-left: 1px solid #44bdf6;*/
+    border-right: 1px solid #44bdf6;
+}
+
+.footer-content{
+    height: 90px;
+    border-right: 1px solid #44bdf6;
+    border-left: 1px solid #44bdf6;
+}
+
+.footer-logo img,.button-up img{
+    position: absolute;
+    top: 80px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.footer-info p{
+    display: inline-block;
+    position: relative;
+/*    top: 10px;*/
+    margin: 0 auto;
+    font-size: 10px;
+    color: #114988;
+}
+
+.footer-menu  ul{
+    position: absolute;
+    margin: 0 0 0 50px;
+}
+
+div#exhaust,div#rocket  {
+    display: none;
+    position: absolute;
+    z-index: 2000;
+}
+
+
+.social-button div{
+    font-size: 10px;
+}
+
+.icon-button {
+    background-color: #CFCFCF;
+    border-radius: 3.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 2.0rem;
+    height: 3.6rem;
+    line-height: 3.6rem;
+    margin: 0 5px;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 3.6rem;
+}
+
+.icon-button span {
+    border-radius: 0;
+    display: block;
+    height: 0;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 0;
+}
+
+.icon-button:hover span {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 3.6rem;
+    margin: -1.8rem;
+}
+
+
+.icon-button i {
+    background: none;
+    color: white;
+    height: 3.6rem;
+    left: 0;
+    line-height: 3.6rem;
+    position: absolute;
+    top: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 3.6rem;
+    z-index: 10;
+}
+
+.social-button div a:hover{
+        box-shadow: 0px 0px 10px #114988;
+}
+
+.social-button div{
+    margin: 5px 4%;
+
+}
+
