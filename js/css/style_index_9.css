@@ -1,0 +1,164 @@
+/*=====first block under head with noname photo and navig==================*/
+.brd_head_cont{
+    border-bottom: 1px solid #4B75A4;
+    margin-bottom: 35px;
+}
+.name_content{
+    margin: 0;
+    text-align: left;
+}
+.name_content h1{
+    display: inline-block;
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+.cont_head_left{
+    padding-left: 0;
+}
+
+.wrap_right_head_cont{
+    padding-right: 0;
+}
+.wrap_photo{
+    margin-top: 10px;
+}
+.Photo_N_N{
+    width: 75px;
+    height: 75px;
+}
+.name_photo{
+    width: 120px;
+    height: 75px;
+    display: inline-block;
+    padding-right: 0;
+}
+.sp_name_photo{
+    margin-top: 22px;
+    display: table;
+}
+.name_photo h4{
+    margin: 0;
+}
+.green{
+    color: #33CB01;
+}
+
+.nav_cont_right{
+    padding: 20px 0 5px 0;
+}
+.for_whome{
+    padding: 0;
+}
+.for_whome a{
+    text-decoration: underline;
+}
+.selected{
+    text-align: left;
+    color: #999;
+}
+.selected a{
+    text-decoration: none;
+    color: #999;
+}
+.courseNum{
+    display: inline-block;
+    background: #4B75A4;
+    color: white;
+    border-radius: 2px;
+    width: 22px;
+    height: 18px;
+    padding-right: 2px;
+    text-align: center;
+    line-height: 18px;
+}
+.selectedSpan{
+     color: #999;
+     text-align: center;
+ }
+.fa-square{
+    font-size: 10px !important;
+}
+/*=========BLOCK wrap_courses=============*/
+.blockCourses{
+    margin-bottom: 30px;
+}
+img.courseImg{
+    width: 100px;
+    height: 100px;
+}
+.sbsc{
+    border-left: none;
+    font-size: 14px;
+}
+.coursesName{
+    font-size: 20px;
+    color: #4682B4;
+}
+.coursesNameWeb{
+    font-size: 18px;
+}
+.coursesLevel{
+    color: #4682B4;
+}
+.ratico{
+    padding-left: 85px;
+}
+.ratico_middle{
+    padding-left: 160px;
+}
+.ratico_first{
+    padding-left: 142px;
+}
+.coursesRed{
+    color: #CB0001;
+    text-decoration: line-through;
+}
+.coursesBold{
+    font-weight: bold;
+}
+.red{
+    color: #CB0001;
+}
+
+
+/*===================Sasha blue block====================================*/
+.row .bluebox{
+    /*height: 200px;*/
+    background-color: #4B75A4;
+    width: 530px;
+    margin: 0 20px 30px 20px;
+}
+
+.bluebox .fa .fa-times{
+    font-color:white;
+    cursor: pointer;
+}
+
+.bluebox p{
+    color: white;
+    padding: 0 10px 0 30px;
+    font-size: 12px;
+}
+
+.bluebox  a{
+    color: white;
+    font-size: 14px;
+}
+
+.bluebox .text{
+    margin: 20px 0;
+    text-align: left;
+    /*font-size: 18px;*/
+}
+
+.bluebox .h{
+    font-size: 1.9rem;
+    text-align: center;
+    margin-right: 35px;
+    color: white;
+    margin-top:20px;
+}
+
+.bluebox .button-close{
+    text-align: right;
+}

@@ -1,0 +1,17 @@
+.row .bluebox{
+	height: 200px;
+	background-color: #4B75A4;
+}
+
+.fa .fa-times{
+	font-color:white;
+	cursor: pointer;
+}
+
+i {
+  color: white;
+}
+
+p,a{
+	color: white;
+}

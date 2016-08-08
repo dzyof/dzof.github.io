@@ -1,0 +1,163 @@
+/*Ivan (breadcrumb + Вступ до програмування + block with button "Почати курс"")*/
+/*----------breadcrumb-----------*/
+.my-breadcrumb{
+    margin-top: 35px;
+}
+ul.breadcrumb{
+    background-color: #FFF;
+    text-align: left;
+    padding-left: 0;
+}
+ul.breadcrumb a{
+    text-decoration: underline;
+}
+
+/*-------end breadcrumb-----------*/
+
+/*------Вступ до програмування-----*/
+h2{
+    text-align: left;
+}
+.name_content{
+    border-bottom: none;
+    margin-bottom: 20px;
+}
+
+/*------end Вступ до програмування-----*/
+
+/*-------block with button "Почати курс"-------*/
+img.courseImg{
+    width: 90px;
+    height: 90px;
+}
+.wrap_cours{
+    border-bottom: 1px solid #CBCBCB;
+    z-index: -2;
+}
+.sbsc{
+    border-left: 1px solid #CBCBCB;
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    margin-right: 0;
+}
+.ratico{
+    padding-left: 365px;
+}
+.col_gr{
+    color: #008000;
+}
+.btn_right{
+    margin-left: 456px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.bl_price{
+    padding: 0;
+}
+/*-------end  block with button "Почати курс" (Ivan) -------*/
+
+/*-------------------------- Teachers block ------------------------*/
+
+div.teacherBoxLeft {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+div.teacherBoxRight {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+img.teacherIMG {
+    width:60px;
+    height: 60px;
+    z-index: 1;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+a.teacherLink {
+    color: #23527c;
+    font-size: 1.1rem;
+    display: inline-block;
+    max-width: 90px;
+}
+
+button.teacherContact {
+    width: 30px;
+    height: 24px;
+}
+
+button.teacherContact > img {
+    margin: -13px 0 0 -8px;
+    width: 20px;
+    height: 20px;
+}
+
+td.teacherTableBlock {
+    vertical-align: middle !important;
+    text-align: left !important;
+    font-size: 1.4rem;
+}
+
+div.teacherBoxRight {
+    line-height: 1.2;
+    color: #666666;
+    font-weight: 600;
+    font-family: "MyriadPro", sans-serif;
+    vertical-align: middle !important;
+    text-align: left !important;
+}
+
+div.teacherBoxRight > span {
+    font-family: "MyriadPro", sans-serif;
+    color: #4682B4;
+}
+
+table.teachers {
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.table.teachers td {
+    border: 1px;
+    border-bottom: 1px solid #cccccc;
+
+}
+
+.table.teachers td:first-child {
+    border-right: 1px solid #cccccc;
+}
+
+tr.empty {
+    height: 25px;
+}
+/*-------------------------- END Teachers block ------------------------*/
+
+
+/*-----------Julia---------------------------*/
+div > h2{
+    color: #4682B4;
+}
+.disablesLink{
+    cursor: pointer;
+}
+.table2{
+    margin-left: 0;
+    font-size: 18px;
+    color: #999999;
+    font: regular;
+}
+.modul{
+    width: 100%;
+    float: left;
+}
+.table2 td {
+    text-align: left ;
+}
+.colonum-1{
+    width: 127px;
+}
+/*-----------END Julia---------------------------*/
+

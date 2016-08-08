@@ -1,0 +1,377 @@
+
+/*------------- Left Block -----------------*/
+
+.nav-tabs {
+    border-bottom: 1px solid #335379;
+}
+
+#pointer {
+    margin-top: -2px;
+    margin-left: 6px;
+    display: block;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    display: none;
+}
+#overlay, .videoWrapper iframe, .textBox, .taskBox {
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid #335379;
+    border-left: 1px solid #335379;
+    border-right: 1px solid #335379;
+    border-radius: 0 0 0 5px;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    padding: 5px 5px 5px 3px;
+    height: 100%;
+}
+
+#overlay, div.taskBox, div.textBox {
+    width: 100%;
+    height: 419px;
+    font-size: 14px;
+}
+
+#overlay {
+    padding: 5px 5px 5px 3px;
+}
+
+div.videoOverlay {
+    width: 100%;
+    height: 409px;
+    background: #072152;
+}
+
+div.taskBox {
+    overflow: hidden;
+    font-family: "MyriadPro", sans-serif;
+    color: #222222;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+div.textBox {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+.nav-tabs>li>a, .nav-tabs>li>a:hover {
+    font-family: "MyriadPro", sans-serif;
+    border: 1px solid #335379;
+    color: #666666;
+    margin: 0;
+    font-weight: normal;
+}
+
+.nav-tabs>li>a {
+    background: #cccccc;
+}
+
+.nav-tabs>li>a:hover {
+    background:#4b75a4;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover,
+.nav-tabs>li>a, .nav-tabs>li>a:hover {
+    border-top: 1px solid #335379;
+    border-right: 1px solid #335379;
+    border-left: 1px solid #335379;
+    border-radius: 10px 10px 0 0;
+}
+
+.nav-tabs>li.active>a:hover {
+    cursor: text;
+}
+
+.lessonTopic {
+    color: #4b75a4;
+    font-size: 28px;
+    margin: 10px 0 10px 0;
+    line-height: 28px;
+    font-weight: normal;
+    width: 100%;
+}
+
+.lessonPart {
+    border-bottom: 1px solid #335379;
+}
+
+.ng-binding {
+    display: inline-block;
+    font-size: 18px;
+    color: #4b75a4;
+    margin: 0;
+}
+
+div.lectureProgress {
+    margin: 10px 0;
+}
+
+div.spot {
+    display: inline-block;
+    width: 30px;
+    height: 8px;
+    cursor: pointer;
+    background: #cecece;
+}
+
+div.spotDone {
+    background: green;
+}
+
+div.spotDone:hover {
+    background: #4b75a4;
+}
+
+img.achievemtnt {
+    width: 38px;
+    height: 29px;
+}
+
+div.inlineIMG {
+    display: inline-block;
+}
+
+img.inTextIMG {
+    max-width: 100%;
+    height: auto;
+}
+
+img.inTaskIMG {
+    width: 67px;
+    height: 419px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+div.taskBox > div > div.right {
+    height: 419px;
+    background: #DAE2EC;
+    width: 100%;
+    padding: 10px;
+}
+
+div.rightWrap {
+    width: 100%;
+}
+
+input.answer {
+    width: 14px;
+    height: 14px;
+}
+
+button.ansBTN {
+    float: right;
+}
+
+/*------------- END of Left Block -----------------*/
+
+/*------------- Right Block -----------------*/
+/*-------------------index_6 Right colum------------Dima---------*/
+.right-index3 li{
+    margin-top: 5px;
+}
+.collapse li{
+    margin-left: 15px;
+    margin-top: 0;
+}
+li{
+    list-style: none;
+}
+.btn span, .help span {
+    display: inline-block;
+    float: right;
+}
+#colaps-link{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .fa-bullhorn, .fa-clock-o{
+    font-size: 18px ;
+    color: #4b75a4;
+ }
+ .circle i{
+    color: #ccc;
+ }
+ #selected {
+    color: green ;
+ }
+
+ .online-help {
+    color:  #c54b37;
+ }
+ .btn-primary{
+    background-color: #4b75a4;
+    margin-right: 15px;
+    border-radius: 10px;
+    padding: 2px 12px;
+ }
+.btn-primary:hover{
+    background-color: #799ED1
+}
+ .btn-primary i{
+    margin-right: 15px;
+  }
+
+ .help{
+    margin-bottom: 15px;
+ }
+ .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover {
+    border-radius: 10px 10px 0 0;
+}
+#form-list a{
+    color: #4b75a4;
+}
+ .forum{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 5px 5px 3px;
+    border-bottom: 1px solid #335379;
+    border-left: 1px solid #335379;
+    border-right: 1px solid #335379;
+    border-radius: 0 0 0 10px;
+    margin-bottom:  15px;
+ }
+ .forum-chat{
+    font-size: 13px;
+    line-height: 18px;
+ }
+.well{
+    cursor: pointer;
+    margin: 5px;
+    background: #E1EBF2;
+} 
+.well span {
+    color: #4B75A4;
+    font-weight: bold;
+
+
+.online-help {
+    color:  #c54b37;
+}
+.rightBlockBtn{
+    background-color: #4b75a4;
+    margin-right: 15px;
+    border-radius: 10px;
+    padding: 2px 12px;
+}
+.btn-primary:hover{
+    background-color: #799ED1
+}
+div.help > .btn-primary i{
+    margin-right: 15px;
+}
+
+.help{
+    margin-bottom: 15px;
+}
+
+#form-list a, #form-list a{
+    color: #4b75a4;
+    padding: 1px 5px;
+}
+
+.forum{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 5px 5px 3px;
+    border-bottom: 1px solid #335379;
+    border-left: 1px solid #335379;
+    border-right: 1px solid #335379;
+    border-radius: 0 0 0 10px;
+    margin-bottom:  15px;
+}
+.forum-chat{
+    font-size: 13px;
+    line-height: 18px;
+}
+.well{
+    cursor: pointer;
+    margin: 5px;
+    background: #E1EBF2;
+}
+.well span {
+    color: #4B75A4;
+    font-weight: bold;
+}
+
+/*------------- END of Right Block -----------------*/
+
+/*==================dropdown + navigation from dzyof=================*/
+/*begin*/
+#drop-icon{
+    background: #4b75a4;
+}
+#drop-icon:hover{
+    background: #4b75a4;
+}
+.dropdown .btn:hover{ background-color: #4B75A4;}
+.dropdown .btn:focus{ background-color: #4B75A4;}
+#soc-navigation{
+    position: fixed;
+    z-index: 9998;
+    float: left;
+    margin-left: 15px;
+    top: 110px;
+}
+.dropdown{
+    position: fixed;
+    top: 5px;
+    margin-left: 1px;
+    z-index: 0;
+}
+.dropdown-language,.dropdown li a:hover{
+    background: #fff;
+    color: #4b75a4;
+}
+.dropdown-menu{
+    position: fixed;
+    top: 0px;
+    margin-left: 0px;
+    z-index: -1;
+    width: 200px;
+    padding-left: 50px;
+}
+#dropdown-language{
+    display: block;
+    margin-left: 90px;
+    margin-top: 10px;
+    clear: both;
+    position: absolute;
+}
+li .dropdown-language-active {
+    color: #999999;
+    text-decoration: none;
+    padding-right: 5px;
+}
+li .dropdown-language-border{
+     border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0 5px;
+}
+.dropdown-language{
+    padding-left: 15px;
+}
+.dropdown-menu li a{
+     background: #fff;
+     text-align: left;
+    list-style: none;
+    font-size: 18px;
+    line-height: 2;
+    text-decoration: none;
+}
+
+/*end*/

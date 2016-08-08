@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page_1</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style_index_6.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Empty block from the left -->
+            <div class="col-sm-1 sidenav" >
+                <div class="dropdown" id="hambNav">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="hambButton">
+
+                        <i class="fa fa-bars fa-2x" aria-hidden="true" id="drop-icon" ></i>
+                    </button>
+                    <ul class="dropdown-menu" id="hambMenu" style="display: none;">
+                        <li>
+                            <a href="#"><img src="img/dropdown-logo.png" alt="logo"></a>
+                        </li>
+                        <li>
+                            <div class="dropdown-language">
+                                <a href="#" class="dropdown-language-active">ua</a>
+                                <a href="#" class="dropdown-language-border">en</a>
+                                <a href="#" style="padding-left: 5px;">ru</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Курси</a>
+                        </li>
+                        <li>
+                            <a href="#">Викладачі</a>
+                        </li>
+                        <li>
+                            <a href="#">Випускники</a>
+                        </li>
+                        <li>
+                            <a href="#">Форум</a>
+                        </li>
+                        <li>
+                            <a href="#">Про нас</a>
+                        </li>
+                        <li>
+                            <div class="line">
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="drop-button">
+                                <button type="button" class="btn btn-primary" >Вхід</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Block with content -->
+            <div class="col-sm-10">
+                <div class="row">
+
+                    <!--VLAD-->
+                    <!--Block with course material (left) == What Programming is-->
+                    <div class="col-sm-8">
+                        <div class="lessonTopic">
+                            Що таке програмування
+                        </div>
+
+                        <div class="lessonPart">
+                            <p class="ng-binding">
+                                Частина 1. Що таке програмування?
+                            </p>
+                        </div>
+
+                        <img id="pointer" src="img/pointer.png">
+
+                        <div class="lectureProgress">
+                            <div class="spot spotDone"></div>
+                            <div class="spot"></div>
+                            <div class="spot"></div>
+                            <div class="spot"></div>
+                            <div class="spot"></div>
+                            <div class="inlineIMG">
+                                <img src="img/Achievement.png" class="achievement">
+                            </div>
+                        </div>
+
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#home">Відео</a></li>
+                            <li><a href="#menu1">Текст</a></li>
+                            <li><a href="#menu2">Завдання</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                <div id="overlay">
+                                    <a href="#" onclick="startVideo()">
+                                        <div class="videoOverlay">
+                                            <img src="img/Intita_preview.png" class="img-responsive" style="left: 37%; top:42%; position: relative;">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div id="youTubeWrap" class="videoWrapper">
+                                    <iframe id="youTubeVideo" src="https://www.youtube.com/embed/cfZGlGVxYe0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+
+                            <div id="menu1" class="tab-pane fade">
+                                <div class="textBox">
+                                    <p>
+                                        Якщо підходити формально, то <strong><span style="color: rgb(79, 129, 189);">п</span><span style="color: rgb(79, 129, 189);">рограмування - це діяльність людини, спрямована на розробку, реалізацію, тестування та підтримку комп’ютерних програм.</span></strong></p><p>У широкому розумінні <strong><span style="color: rgb(155, 187, 89);">програмування - це процес розробки та реалізації будь-якого програмного продукту (операційної системи, програми для побутової техніки, програм та ігор для комп’ютерів, телефонів, планшетів, веб-сайтів та інше).</span></strong>
+                                    </p>
+                                    <p>
+                                        У вузькому розумінні - <strong><span style="color: rgb(155, 187, 89);">це процес кодування певного, попередньо розробленого, алгоритму.</span></strong>
+                                    </p>
+                                    <p>
+                                        <span style="font-size: 18px;"><strong><span style="color: rgb(247, 150, 70);">Можливо, програмування - це наука?</span></strong> </span>
+                                    </p>
+                                    <p>
+                                        Адже, щоб бути програмістом, потрібно володіти математичними прийомами, знати математичні формули. Вирішення певного кола задач вимагає від програміста знання фізики, уміння користуватись фізичними формулами.
+                                    </p>
+                                    <p>
+                                        Але програмування не має власної системи знань. Немає чітко визначеної закономірності створення програм.
+                                    </p>
+                                    <p>
+                                        <strong><span style="color: rgb(79, 129, 189);">Отже, неможливо сказати, що програмування - це наука.</span></strong>
+                                    </p>
+                                    <p>
+                                        <strong><span style="color: rgb(247, 150, 70);">Тоді можливо, програмування - це мистецтво?</span></strong>
+                                    </p>
+                                    <p>
+                                        Адже, щоб бути програмістом, потрібно мати натхнення. Без натхнення у програмуванні не обійтись. Чим складніше завдання, тим складніше отримати натхнення з підсвідомості. Іноді для цього потрібні години, іноді - тижні. Програмісти, як і митці, застосовують при написанні програм певні техніки та технології.
+                                    </p>
+                                    <p>
+                                        Але художники, музиканти, поети, письменники та інші митці, коли пишуть свої твори, намагаються відобразити своє сприйняття світу, виразити свої почуття…
+                                    </p>
+                                    <p>
+                                        <strong><span style="color: rgb(79, 129, 189);">Погодьтесь, що важко уявити програміста, який через написання програми намагається показати людям своє світосприйняття, або свої почуття.</span></strong>
+                                    </p>
+                                    <img src="img/hqdefault.jpg" class="inTextIMG">
+                                    <p>
+                                        Програмування поєднує у собі як науку, так і мистецтво.
+                                    </p>
+                                    <p style="margin-left: 20px;">
+                                        <em><span style="color: rgb(155, 187, 89);">Програміста можна порівняти зі столяром. Наприклад, столяр отримав замовлення на виробництво дверей. Щоб двері були якісні, необхідно зробити їх креслення, врахувати особливості їх використання, зробити все “по науці”. Проте замовник забажав, щоб столяр прикрасив двері, адже це будуть вхідні двері у будинок. Тут майстер застосовує своє вміння митця, щоб зробити на дверях певний візерунок.</span></em>
+                                    </p>
+                                    <p>
+                                        Отже, можна зробити висновок, що програмування - не мистецтво і не наука, це - ремесло. Щоб стати майстром своєї справи, столяр вчився, переймав науку у вчителів, вдосконалювався самостійно та отримував досвід. <strong><span style="color: rgb(79, 129, 189);">Аналогічно програмісту,щоб стати професіоналом своєї справи,необхідно постійно вчитись,працювати і отримувати досвід.</span></strong>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div id="menu2" class="tab-pane fade">
+                                <div class="row-fluid taskBox">
+
+                                    <div class="rightWrap">
+                                        <img src="img/Folder.png" class="inTaskIMG">
+                                        <div class="right" >
+
+                                            <div >
+                                                Що потрібно, щоб стати кваліфікованим програмістом?
+                                            </div>
+                                            <br>
+
+                                            <form>
+                                                <input type="checkbox" name="answer1" class="answer" value="Отримати освіту."> Отримати освіту.<br>
+                                                <input type="checkbox" name="answer2" class="answer" value="Знати і розуміти основи математики."> Знати і розуміти основи математики.<br>
+                                                <input type="checkbox" name="answer3" class="answer" value="Натхнення."> Натхнення.<br>
+                                                <input type="checkbox" name="answer4" class="answer" value="Працювати та отримувати фаховий досвід."> Працювати та отримувати фаховий досвід.<br>
+                                                <input type="checkbox" name="answer4" class="answer" value="Постійно вдосконалюватись."> Постійно вдосконалюватись.<br>
+                                                <br>
+                                                <button class="btn btn-primary btn-sm ansBTN">Відповісти</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of What programming is block-->
+
+                    <!--DIMA-->
+                    <!--Block with additional info and forum buttons (right)-->
+                    <div class="col-sm-4">
+                        <ul class="right-index3">
+                            <li>
+                                Курс:
+                                <a href="#">Інтернет програміст (РНР)</a>
+
+                                (мова:UA )
+                            </li>
+                            <li>
+                                Модуль:
+                                <a href="#">Вступ до програмування</a>
+                            </li>
+                            <li>
+                                Заняття 1:
+
+                                <p data-toggle="collapse" data-target="#demo" >
+                                    <span id="colaps-link">Що таке програмування</span> (Зміст▼)
+                                </p>
+
+                                <div id="demo" class="collapse">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Частина 1. Що таке програмування?</a>
+                                        <li>
+                                            <a href="#">Частина 2. Що потрібно щоб стати програмістом?</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Частина 3. Що таке мова програмування</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Частина 4. Якою має бути програма?</a>
+                                        </li>
+                                        <li>
+
+                                            <a href="#">Частина 5. Етапи програмування</a>
+
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                Тип: <i>лекція/практика</i>  <i class="fa fa-bullhorn" aria-hidden="true" ></i>
+                            </li>
+
+                            <li>
+                                Тривалість: <i>60хв</i> <i class="fa fa-clock-o" aria-hidden="true"></i>
+                            </li>
+
+                            <li >(1 / 11 занять)</li>
+                            <li class="circle">
+                                <i class="fa fa-circle" aria-hidden="true" id="selected" data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Що таке програмування"></i>
+                                <i class="fa fa-circle" aria-hidden="true"  data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Функціонування комп'ютера(Заняття недоступне)"></i>
+                                <i class="fa fa-circle" aria-hidden="true"  data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Пристрої введення та виведення інформації (Заняття недоступне)"></i>
+                                <i class="fa fa-circle" aria-hidden="true"  data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Пам'ять комп'ютера та програмне забезпечення(Заняття недоступне)"></i>
+                                <i class="fa fa-circle" aria-hidden="true"  data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Принципи фон Неймана. Процесор (Заняття недоступне)"></i>
+                                <i class="fa fa-circle" aria-hidden="true"  data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Що таке операційна система? (Заняття недоступне)"></i>
+                                <i class="fa fa-circle" aria-hidden="true"  data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Системи числення (Заняття недоступне)"></i>
+                                <i class="fa fa-circle" aria-hidden="true"  data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Що таке алгоритм (Заняття недоступне)"></i>
+                                <i class="fa fa-circle" aria-hidden="true"  data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Технології програмування (Заняття недоступне)"></i>
+                                <i class="fa fa-circle" aria-hidden="true"  data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Розвиток мов програмування (Заняття недоступне)"></i>
+                                <i class="fa fa-circle" aria-hidden="true"  data-toggle="popover" data-trigger="hover"  data-placement="top" data-content="Модульний іспит (Заняття недоступне)"></i>
+                                <img src="img/medalIcoFalse.png" alt="medalco">
+                            </li>
+                            <li>
+                                <span class="online-help"> Онлайн допомога:</span>
+                            </li>
+
+                        </ul>
+                        <div class="help">
+                            <button type="button" class="btn btn-primary rightBlockBtn"><i class="fa fa-comments-o fa-3x" aria-hidden="true"></i> <span> Онлайн <br>допомога</span></button>
+                            <button type="button" class="btn btn-primary rightBlockBtn"><i class="fa fa-skype fa-3x" aria-hidden="true"></i><span>Допомога<br> по скайпу</span></button>
+                        </div>
+                        <ul class="nav nav-tabs">
+                            <li class="active" id="form-list">
+                                <a href="#"> Форум</a>
+                            </li>
+                        </ul>
+
+                        <div class="forum">
+                            <div class="forum-chat">
+                                <div class="well well-sm">
+                                    <ul>
+                                        <li><span>intita »</span>  18 серпня 2015 20:58</li>
+                                        <li>Обговорення заняття "Що таке програмування"</li>
+                                    </ul>
+                                </div>
+                                <div class="well well-sm">
+                                    <ul>
+                                        <li><span>humeniukviktor@gmail.com »</span> 03 грудня 2015 21:52</li>
+                                        <li>Було б краде в кінці(а не після кожного запитання) ставити підсумковий тест , без можливості коригування відповіді. Якщо не "вгадав" - повторно проходиш ВСЕ заняття))</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="consult ">
+                            <button type="button" class="btn btn-primary rightBlockBtn">
+                                <img src="img/consultationLogo.png" alt="concult">
+                                <span>Запланувати <br>консультацію</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>    <!--RND of block with additional info and forum buttons (right)-->
+            </div>
+            <!--END of content block-->
+
+            <!-- Empty block from the right -->
+            <div class="col-sm-1"></div>
+
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="js/index6.js"></script>
+    <script src="js/drop-down-menu.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page_9-10</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style_index_3.css"/>
+    <link rel="stylesheet" href="css/style_index_9.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
+    <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
+    <![endif]-->
+    <!-- Add test comment -->
+</head>
+<body>
+<!--HEADER-->
+<div class="nav_z">
+    <nav class="navbar navbar-inverse ">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2 pinck_elef"></div>
+                <div class="col-sm-2 pinck_elef_logo">
+                    <img src="img/Logo_bigUA.png" alt="picture"  id="logoImg">
+                </div>
+                <div class="col-sm-4">
+                    <div class="navbar-header" id="vavig">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Курси</a></li>
+                            <li><a href="#">Викладачі</a></li>
+                            <li><a href="#">Випускники</a></li>
+                            <li><a href="#">Форум</a></li>
+                            <li><a href="#">Про нас</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2 box">
+                    <a href="#">
+                        <div id="btn_exit" class="in_line " data-toggle="modal" data-target="#myModal">
+                            Вхід
+                        </div>
+                    </a>
+                    <!-- Modal (Ivan) -->
+                    <!-- Trigger the modal with a button -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <form class="form-horizontal" role="form">
+                                        <div class="form-group">
+                                            <div class="col-sm-12">
+                                                <input type="email" class="form-control" id="email" placeholder="Електронна пошта">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-12">
+                                                <input type="password" class="form-control" id="pwd" placeholder="Пароль">
+                                            </div>
+                                        </div>
+                                        <div class="log_reg">
+                                            <div class="col-sm-6 col_bl">
+                                                <a href="#">Забув пароль?</a>
+                                            </div>
+                                            <div class="col-sm-6 col_bl">
+                                                <a href="#" class="fl_rt">Зареєструватися</a>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <div class="col-sm-9 ">
+                                        <button type="button" class="btn btn-primary btn_left btn_centr btn_mdl">УВІЙТИ /></button>
+                                    </div>
+                                    <div class="col-sm-10 soc_net">
+                                        Увійти/зареєструватись через соцмережі
+                                    </div>
+                                    <div class="col-sm-12 img_soc">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="#"><img src="img/facebook2.png" alt="picture" class="soc_img"></a></li>
+                                            <li><a href="#"><img src="img/googleplus2.png" alt="picture"></a></li>
+                                            <li><a href="#"><img src="img/linkedin2.png" alt="picture"></a></li>
+                                            <li><a href="#"><img src="img/vkontakte2.png" alt="picture"></a></li>
+                                            <li><a href="#"><img src="img/twitter2.png" alt="picture"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- END Modal (Ivan) -->
+                    <div class="choise_lan_div in_line">
+                        <ul class="nav navbar-nav ch_lang">
+                            <li><a href="#">ua</a></li>
+                            <li><a href="#" class="brd no_act">en</a></li>
+                            <li><a href="#" class="no_act">ru</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <!--header, col left empty-->
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<!--END HEADER===================================================================-->
+
+<!--CONTENT======================================================================-->
+
+<div class="container-fluid text-center">
+<div class="row content">
+
+
+    <!-- side bar left =========================================================-->
+    <!--Dima-->
+    <div class="col-sm-1 sidenav" >
+        <div class="dropdown" id="hambNav">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="hambButton">
+
+                <i class="fa fa-bars fa-2x" aria-hidden="true" id="drop-icon" ></i>
+            </button>
+            <ul class="dropdown-menu" id="hambMenu" style="display: none;">
+                <li>
+                    <a href="#"><img src="img/dropdown-logo.png" alt="logo"></a>
+                </li>
+                <li>
+                    <div class="dropdown-language">
+                        <a href="#" class="dropdown-language-active">ua</a>
+                        <a href="#" class="dropdown-language-border">en</a>
+                        <a href="#" style="padding-left: 5px;">ru</a>
+                    </div>
+                </li>
+                <li>
+                    <a href="#">Курси</a>
+                </li>
+                <li>
+                    <a href="#">Викладачі</a>
+                </li>
+                <li>
+                    <a href="#">Випускники</a>
+                </li>
+                <li>
+                    <a href="#">Форум</a>
+                </li>
+                <li>
+                    <a href="#">Про нас</a>
+                </li>
+                <li>
+                    <div class="line">
+
+                    </div>
+                </li>
+                <li>
+                    <div class="drop-button">
+                        <button type="button" class="btn btn-primary" >Вхід</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="social-groop">
+            <div >
+                <a href="#"><div id="soc-f" ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></div></a>
+                <span>0</span>
+            </div>
+            <div>
+                <a href="#" ><div id="soc-g"><i class="fa fa-google-plus fa-1x" aria-hidden="true"></i></div></a>
+                <span>0</span>
+            </div>
+            <div >
+                <a href="#"><div id="soc-in"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
+                <span>0</span>
+            </div>
+            <div >
+                <a href="#"><div id="soc-t"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+                <span>0</span>
+            </div>
+            <div >
+                <a href="#"><div id="soc-vk"><i class="fa fa-vk" aria-hidden="true"></i></div></a>
+                <span>0</span>
+            </div>
+        </div>
+    </div>
+    <!--side bar left =========================================================-->
+    <!-- END Dima =======================================================-->
+
+    <!--CONTENT CENTER================================================================-->
+    <div class="col-sm-10">
+        <div class="row brd_head_cont">
+            <!--content header left -->
+            <div class="col-sm-6 cont_head_left">
+                <div class="my-breadcrumb">
+                    <ul class="breadcrumb">
+                        <li><a href="#">Головна</a></li>
+                        <li>Курси</li>
+                    </ul>
+                </div>
+                <div class="name_content">
+                    <h1>Наші курси</h1>
+                </div>
+            </div>
+
+            <!--content header right -->
+            <div class="col-sm-6 wrap_right_head_cont">
+                <div class="row name_content wrap_photo">
+                    <div class="col-xs-7"></div>
+                    <div class="col-xs-2">
+                        <img src="img/noname2.png" alt="photo" class="Photo_N_N">
+                    </div>
+                    <div class="col-xs-3 name_photo">
+                        <span class="sp_name_photo">
+                            <h4>Костянтин</h4>
+                            <h4>Черняхович</h4>
+                            <span class="green">
+                                <i class="fa fa-square" aria-hidden="true"></i>
+                                online</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="row nav_cont_right">
+                    <div class="col-xs-3 for_whome">
+                        <a href="#">Для початківців</a>
+                        <span class="courseNum">8</span>
+                    </div>
+                    <div class="col-xs-3 for_whome">
+                        <span> |     </span>
+                        <a href="#"> Для спеціалістів</a>
+                        <span class="courseNum">2</span>
+                    </div>
+                    <div class="col-xs-3 for_whome">
+                        <span> | </span>
+                        <a href="#"> Для експертів</a>
+                        <span class="courseNum">1</span>
+                    </div>
+                    <div class="col-xs-3 for_whome selected">
+                        <span> | </span>
+                        <a href="#"> Усі курси</a>
+                        <span class="courseNum selectedSpan">13</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--=======CONTENT================================-->
+        <div class="row">
+            <!--=========LEFT COLOMN OF CONTENT===================-->
+            <div class="col-xs-6">
+
+                <!--Block "Інтернет програміст (РНР)"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareCourseImg_13.png" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">Інтернет програміст (РНР)</a>
+                            <br>
+                                Рівень курсу:
+                            <span class=" coursesLevel">
+                                сильний початківець
+                            </span>
+                            <span class="ratico" >
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/enable.png" alt="picture">
+                            <span class="green">доступний</span><br>
+                            Мови курсу:
+                            <span class=" coursesLevel">ua</span><br>
+                            Вартість:
+                            <span class="coursesRed">$2640.00</span>
+                            <span class="coursesBold">$1848.00</span>(знижка - 30%)
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/star-half.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "Інтернет програміст (РНР)"-->
+
+                <!--Block "Англійська мова для ІТ"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareEnglishImg.png" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">Англійська мова для ІТ</a>
+                            <br>
+                            Рівень курсу:
+                            <span class=" coursesLevel">
+                                середній
+                            </span>
+                            <span class="ratico_middle">
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/disabledRed.png" alt="picture">
+                            <span class="red">розробляється</span><br>
+                            Мови курсу:
+                            <span class=" coursesLevel">ua | ru</span><br>
+                            Вартість:
+                            <span class="coursesRed">$1229.00</span>
+                            <span class="coursesBold">$860.00</span>(знижка - 30%)
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "Англійська мова для ІТ"-->
+
+                <!--Block "Інтернет програміст (Java Script)"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareJSImg.png" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">Інтернет програміст (Java Script)</a>
+                            <br>
+                            Рівень курсу:
+                            <span class=" coursesLevel">
+                                сильний початківець
+                            </span>
+                            <span class="ratico" >
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/disabledRed.png" alt="picture">
+                            <span class="red">розробляється</span><br>
+                            Мови курсу:
+                            <span class=" coursesLevel">ua</span><br>
+                            Вартість:
+                            <span class="coursesRed">$725.00</span>
+                            <span class="coursesBold">$508.00</span>(знижка - 30%)
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "Інтернет програміст (Java Script)"-->
+
+                <!--Block "Програміст (C#)"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareCSImg.png" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">Програміст (C#)</a>
+                            <br>
+                            Рівень курсу:
+                            <span class=" coursesLevel">
+                                початківець
+                            </span>
+                            <span class="ratico_first">
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/disabledRed.png" alt="picture">
+                            <span class="red">розробляється</span><br>
+                            Мови курсу:
+                            <span class="coursesLevel">ua</span><br>
+                            Вартість:
+                            <span class="coursesRed">$440.00</span>
+                            <span class="coursesBold">$308.00</span>(знижка - 30%)
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "Програміст (C#)"-->
+
+                <!--Block "Тестувальник (QA)"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareQAImg.png" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">Тестувальник (QA)</a>
+                            <br>
+                            Рівень курсу:
+                            <span class=" coursesLevel">
+                                середній
+                            </span>
+                            <span class="ratico_middle" >
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/disabledRed.png" alt="picture">
+                            <span class="red">розробляється</span><br>
+                            Мови курсу:
+                            <span class=" coursesLevel">ua</span><br>
+                            Вартість:
+                            <span class="green">безкоштовно</span><br>
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "Тестувальник (QA)"-->
+
+                <!--Block "Верстальщик (HTML, CSS)"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareHTMLCSSImg.png" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">Верстальник сайтів (HTML, CSS)</a>
+                            <br>
+                            Рівень курсу:
+                            <span class="coursesLevel">
+                                середній
+                            </span>
+                            <span class="ratico_middle" >
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/disabledRed.png" alt="picture">
+                            <span class="red">розробляється</span><br>
+                            Мови курсу:
+                            <span class="coursesLevel">ua</span><br>
+                            Вартість:
+                            <span class="green">безкоштовно</span><br>
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "Верстальщик (HTML, CSS)"-->
+            </div>
+
+            <!--=========RIGHT COLOM OF CONTENT====================-->
+            <div class="col-xs-6">
+
+                <!--=============Sasha blue block=========col-md-offset-6-->
+                <div class = "row">
+                    <div class = "bluebox  col-xs-12 col-sm-12 col-md-12 col-lg-12" id = "bluebox">
+                        <div class = "row">
+                            <div class = "col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                                <img src="img/course.png">
+                            </div>
+                            <div class = "col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                                <p><div class = "h">Концепція підготовки</div></p>
+                            </div>
+                            <div class = "col-xs-1 col-sm-1 col-md-1 col-lg-1 button-close">
+                                <a onclick="button_close()" href= "#" ><i class="fa fa-times"></i><span></span></a>
+                            </div>
+                        </div>
+
+                        <div class = "row text">
+                            <p>
+                                Спочатку навчання створюється стійкий фундамент для підготовки програмістів: необхідні знання елементарної математики, будови комп’ютера і основ програмування.
+                            </p><br>
+
+                            <p>
+                                <a id = "button-deploy" href="#deploy"  onclick = "button_deploy()" data-toggle="collapse">детальніше ...</a>
+
+                                <div id = "deploy" class="collapse">
+                                    <p>
+                                        Потім вивчаються основні принципи програмування на базі класичних комп’ютерних наук і методологій, алгоритмічна мова, eлементи вищої та дискретної математики і комбінаторики, структури даних, розробка і аналіз алгоритмів.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Після чого формується база для переходу до сучасних технологій програмування об’єктно-орієнтоване програмування, проектування баз даних.
+                                    </p>
+                                    <br>
+                                    <p>
+                                        Завершення процесу підготовки шляхом конкретного застосування отриманих знань на реальних проектах із засвоєнням сучасних методів і технологій, які використовуються в ІТ індустрії компаніями.
+                                    </p><br>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                <!--<div class = "col-xs-1 col-sm-1 col-md-1 col-lg-1">-->
+                <!--</div>-->
+                 </div>
+                <!--------Sasha END blue block----------------------------------------------->
+
+                <!--Block "Побудова успішної ІТ кар’єри"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareITBisImg.png" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">Побудова успішної ІТ кар’єри</a>
+                            <br>
+                            Рівень курсу:
+                            <span class=" coursesLevel">
+                                високий
+                            </span>
+                            <span class="ratico_middle" >
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/disabledRed.png" alt="picture">
+                            <span class="red">розробляється</span><br>
+                            Мови курсу:
+                            <span class=" coursesLevel">ua</span><br>
+                            Вартість:
+                            <span class="coursesRed">$285.00</span>
+                            <span class="coursesBold">$200.00</span>(знижка - 30%)
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/star-half.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "Побудова успішної ІТ кар’єри"-->
+
+                <!--Block "TEST! REVISIONS"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareRevisImg.jpg" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">TEST! REVISIONS </a>
+                            <br>
+                            Рівень курсу:
+                            <span class=" coursesLevel">
+                                стажер
+                            </span>
+                            <span class="ratico_middle" >
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/enable.png" alt="picture">
+                            <span class="green">доступний</span><br>
+                            Мови курсу:
+                            <span class=" coursesLevel">ru</span><br>
+                            Вартість:
+                            <span class="coursesRed">$111.00</span>
+                            <span class="coursesBold">$78.00</span>(знижка - 30%)
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "Програміст (TEST! REVISIONS)"-->
+
+                <!--Block "Програміст (JAVA)"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareJavaImg.png" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">Програміст (Java)</a>
+                            <br>
+                            Рівень курсу:
+                            <span class=" coursesLevel">
+                                початківець
+                            </span>
+                            <span class="ratico_first">
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/disabledRed.png" alt="picture">
+                            <span class="red">розробляється</span><br>
+                            Мови курсу:
+                            <span class="coursesLevel">ua</span><br>
+                            Вартість:
+                            <span class="coursesRed">$670.00</span>
+                            <span class="coursesBold">$469.00</span>(знижка - 30%)
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "JAVA"-->
+
+                <!--Block "Програміст (C++)"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareCPPImg.png" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">Програміст (C++)</a>
+                            <br>
+                            Рівень курсу:
+                            <span class=" coursesLevel">
+                                стажер
+                            </span>
+                            <span class="ratico_middle">
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/disabledRed.png" alt="picture">
+                            <span class="red">розробляється</span><br>
+                            Мови курсу:
+                            <span class="coursesLevel">ua</span><br>
+                            Вартість:
+                            <span class="coursesRed">$440.00</span>
+                            <span class="coursesBold">$308.00</span>(знижка - 30%)
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "C++"-->
+
+                <!--Block "Програміст (Swift)"-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareSwiftImg.png" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName">Програміст (Swift)</a>
+                            <br>
+                            Рівень курсу:
+                            <span class=" coursesLevel">
+                                початківець
+                            </span>
+                            <span class="ratico_first">
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/disabledRed.png" alt="picture">
+                            <span class="red">розробляється</span><br>
+                            Мови курсу:
+                            <span class="coursesLevel">ua</span><br>
+                            Вартість:
+                            <span class="coursesRed">$440.00</span>
+                            <span class="coursesBold">$308.00</span>(знижка - 30%)
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starFull.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "Програміст (Swift)"-->
+
+                <!--Block "ВЕБ-дизайнер. Проектувальник інтерфейсів (UI) "-->
+                <div class="row blockCourses">
+                    <div class="col-sm-3" >
+                        <img src="img/shareWebDesImg.jpg" alt="picture"  class="courseImg">
+                    </div>
+                    <div class="col-sm-9 bl_price">
+                        <div class="sbsc">
+                            <a href="#" class="coursesName coursesNameWeb">ВЕБ-дизайнер. Проектувальник інтерфейсів (UI)</a>
+                            <br>
+                            Рівень курсу:
+                            <span class=" coursesLevel">
+                                сильний початківець
+                            </span>
+                            <span class="ratico" >
+                                <a href="#" class="level_img" title="сильний початківець">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco1.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                    <img src="img/ratIco0.png" alt="picture">
+                                </a>
+                            </span><br>
+
+                            Стан курсу:
+                            <img src="img/disabledRed.png" alt="picture">
+                            <span class="red">розробляється</span><br>
+                            Мови курсу:
+                            <span class=" coursesLevel">ua</span><br>
+                            Вартість:
+                            <span class="coursesRed">$255.00</span>
+                            <span class="coursesBold">$179.00</span>(знижка - 30%)
+                            <div class="row star_btn">
+                                <div class="col-sm-5">
+                                    <span class="col_bl">Оцінка:</span>
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                    <img src="img/starEmpty.png" alt="picture">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END Block "ВЕБ-дизайнер. Проектувальник інтерфейсів (UI)"-->
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="col-sm-1">
+        <!--empty right-->
+    </div>
+</div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<div class ="footer">
+    <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+            <div class="row footer-content">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 social-button">
+                    <div>
+                        <a href="http://twitter.com/minimalmonkey" class="icon-button"><i class="fa fa-twitter"></i><span></span></a>
+                        <a href="http://youtube.com" class="icon-button"><i class="fa fa-youtube"></i><span></span></a>
+                        <a href="http://plus.google.com" class="icon-button"><i class="fa fa-google-plus"></i><span></span></a>
+                        <a href="http://facebook.com" class="icon-button"><i class="fa fa-facebook"></i><span></span></a>
+                        <a href="https://www.linkedin.com" class="icon-button"><i class="fa fa-linkedin"></i><span></span></a>
+                        <a href="https://www.vk.com" class="icon-button"><i class="fa fa-bold"></i><span></span></a>
+                    </div>
+                </div>
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 content">
+                    <div class = "row">
+                        <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3 footer-logo">
+                            <img src="img/Logo_small.png">
+                        </div>
+                        <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3 footer-info">
+                            <p>телефон: +38 0432 52 82 67</p>
+                            <p>тел. моб. +38 067 431 19 21</p>
+                            <p>ел. пошта: intita.hr@gmail.com</p>
+                            <p>скайп: int.ita</p>
+                        </div>
+                        <div class = "col-xs-6 col-sm-6 col-md-6 col-lg-6 footer-menu">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Курси</a></li>
+                                <li><a href="#">Викладачі</a></li>
+                                <li><a href="#">Випускники</a></li>
+                                <li><a href="#">Форум</a></li>
+                                <li><a href="#">Про нас</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 button-up">
+                    <a href="#" onclick="goUp()"><img src="img/go_up.png"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+<script src="js/drop-down-menu.js"></script>
+<!-- <script src="js/dropdown-menu.js"></script> -->
+<script type="text/javascript" src="script/goToTop.js"></script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
+<!--blue block-->
+<script>
+    function button_deploy() {
+        document.getElementById('button-deploy').style.display='none'
+    }
+
+    function button_close(){
+        document.getElementById('bluebox').style.display='none'
+    }
+</script>
+
+<div id="rocket" style="top: -210px; left: 404.5px; display: block;">
+    <img src="img/rocket.png">
+</div>
+<div id="exhaust" style="display: none; top: 3179.02px; left: 174.5px;">
+    <img src="img/exhaust.png">
+</div>
+
+<!--&lt;!&ndash; jQuery (necessary for Bootstrap's JavaScript plugins) &ndash;&gt;-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+<!--&lt;!&ndash; Include all compiled plugins (below), or include individual files as needed &ndash;&gt;-->
+<!--<script src="js/bootstrap.js"></script>-->
+
+</body>
+</html>

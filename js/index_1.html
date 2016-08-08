@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Page_1</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+ </head>
+<body>
+<!--HEADER-->
+<div class="nav_z">
+<nav class="navbar navbar-inverse ">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 pinck_elef "></div>
+            <div class="col-sm-2 pinck_elef_logo">
+                <img src="img/Logo_bigUA.png" alt="picture"  id="logoImg">
+            </div>
+            <div class="col-sm-4">
+                <div class="navbar-header" id="vavig">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Курси</a></li>
+                        <li><a href="#">Викладачі</a></li>
+                        <li><a href="#">Випускники</a></li>
+                        <li><a href="#">Форум</a></li>
+                        <li><a href="#">Про нас</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2 box">
+
+                <a href="#">
+                    <div id="btn_exit" class="in_line " data-toggle="modal" data-target="#myModal">
+                        Вхід
+                    </div>
+                </a>
+                <!-- Modal (Ivan) -->
+                <!-- Trigger the modal with a button -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <div class="modal-body">
+                                <form class="form-horizontal" role="form">
+                                    <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <input type="email" class="form-control" id="email" placeholder="Електронна пошта">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-12">
+                                            <input type="password" class="form-control" id="pwd" placeholder="Пароль">
+                                        </div>
+                                    </div>
+                                    <div class="log_reg">
+                                        <div class="col-sm-6 col_bl">
+                                            <a href="#">Забув пароль?</a>
+                                        </div>
+                                        <div class="col-sm-6 col_bl">
+                                            <a href="#" class="fl_rt">Зареєструватися</a>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="modal-footer">
+                                <div class="col-sm-9 ">
+                                    <button type="button" class="btn btn-primary btn_left btn_centr btn_mdl">УВІЙТИ /></button>
+                                </div>
+                                <div class="col-sm-10 soc_net">
+                                    Увійти/зареєструватись через соцмережі
+                                </div>
+                                <div class="col-sm-12 img_soc">
+                                    <ul class="nav navbar-nav">
+                                        <li><a href="#"><img src="img/facebook2.png" alt="picture" class="soc_img"></a></li>
+                                        <li><a href="#"><img src="img/googleplus2.png" alt="picture"></a></li>
+                                        <li><a href="#"><img src="img/linkedin2.png" alt="picture"></a></li>
+                                        <li><a href="#"><img src="img/vkontakte2.png" alt="picture"></a></li>
+                                        <li><a href="#"><img src="img/twitter2.png" alt="picture"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- END Modal (Ivan) -->
+                <div class="choise_lan_div in_line">
+                    <ul class="nav navbar-nav ch_lang">
+                        <li><a href="#">ua</a></li>
+                        <li><a href="#" class="brd no_act">en</a></li>
+                        <li><a href="#" class="no_act">ru</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <!--header, col left empty-->
+            </div>
+        </div>
+
+    </div>
+</nav>
+</div>
+
+
+<!--CONTENT======================================================================-->
+<div class="container-fluid text-center">
+    <div class="row content">
+        <!--side bar left =========================================================-->
+            <!-- BEGIN -->
+        <div class="col-sm-2 sidenav" >
+
+      <div class="dropdown" id="hambNav">
+           <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="hambButton">
+
+           <i class="fa fa-bars fa-2x" aria-hidden="true" id="drop-icon" ></i>
+           </button>
+           <!--style="display: none;"-->
+           <ul class="dropdown-menu" id="hambMenu" >
+               <li>
+                   <a href="#"><img src="img/dropdown-logo.png" alt="logo"></a>
+               </li>
+               <li>
+                    <div class="dropdown-language">
+                            <a href="#" class="dropdown-language-active">ua</a>
+                            <a href="#" class="dropdown-language-border">en</a>
+                            <a href="#" style="padding-left: 5px;">ru</a>
+                    </div>
+                </li>
+               <li>
+                   <a href="#">Курси</a>
+               </li>
+               <li>
+                   <a href="#">Викладачі</a>
+               </li>
+               <li>
+                   <a href="#">Випускники</a>
+               </li>
+               <li>
+                   <a href="#">Форум</a>
+               </li>
+               <li>
+                   <a href="#">Про нас</a>
+               </li>
+               <li>
+                   <div class="line">
+                   </div>
+               </li>
+               <li>
+                    <div class="drop-button">
+                        <button type="button" class="btn btn-primary" >Вхід</button>
+                    </div>
+               </li>
+           </ul>
+       </div>
+    </div>
+	<div class="social-groop">
+        <div >
+            <a href="#"><div id="soc-f" ><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></div></a>
+            <span>0</span>
+        </div>
+        <div>
+            <a href="#" ><div id="soc-g"><i class="fa fa-google-plus fa-1x" aria-hidden="true"></i></div></a>
+            <span>0</span>
+        </div>
+        <div >
+            <a href="#"><div id="soc-in"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
+            <span>0</span>
+        </div>
+        <div >
+            <a href="#"><div id="soc-t"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
+            <span>0</span>
+        </div>
+        <div >
+            <a href="#"><div id="soc-vk"><i class="fa fa-vk" aria-hidden="true"></i></div></a>
+            <span>0</span>
+        </div>
+
+	</div>
+
+<!--side bar left =========================================================-->
+            <!-- END -->
+
+
+       <!--CONTENT CENTER================================================================-->
+
+        <!--side bar left--------------------------------------------->
+
+         <div class="col-sm-8 text-left">
+
+            <div class="name_content">
+                <h2>Інтернет програміст (РНР)</h2>
+            </div>
+
+            <!--block with price------------------------------------------------------------->
+            <div class="row">
+                <div class="col-sm-2" >
+                    <img src="img/shareCourseImg_13.png" alt="picture"  class="courseImg">
+                </div>
+                <div class="col-sm-6 bl_price" >
+                    <span class="level">Рівень:</span>
+                    <a href="#" class="level_img" title="сильний початківець">
+                        <img src="img/ratIco1.png" alt="picture">
+                        <img src="img/ratIco1.png" alt="picture">
+                        <img src="img/ratIco1.png" alt="picture">
+                        <img src="img/ratIco0.png" alt="picture">
+                        <img src="img/ratIco0.png" alt="picture">
+                    </a>
+                    <div>
+                        <span class="col_bl">Тривалість:</span>
+                        <b>214 занять</b> , орієнтовно - <b>28міс</b>.
+                    </div>
+                    <div>
+                        <span class="col_bl un_line">
+                             Ціна за весь курс наперед (схеми проплат онлайн)
+                        </span>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+
+                    <div>
+                        <span class="old_price">$2640.00</span>
+                        <span class="new_price">$1848.00</span>
+                        <span class="discount">
+                            <img src="img/pig.png" alt="picture">
+                            (знижка - 30%)
+                        </span>
+                    </div>
+
+                    <div>
+                        <span class="col_bl un_line">
+                             Ціна за весь курс наперед (розгорнути схеми офлайн)
+                        </span>
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <span class="old_price">$1848.00</span>
+                        <span class="new_price">$1294.00</span>
+                        <span class="discount">
+                            <img src="img/pig.png" alt="picture">
+                            (знижка - 30%)
+                        </span>
+                    </div>
+
+                    <div class="row star_btn">
+                        <div class="col-sm-5">
+                            <span class="col_bl">Оцінка:</span>
+                            <img src="img/starFull.png" alt="picture">
+                            <img src="img/starFull.png" alt="picture">
+                            <img src="img/starFull.png" alt="picture">
+                            <img src="img/starFull.png" alt="picture">
+                            <img src="img/star-half.png" alt="picture">
+                        </div>
+                        <div class="col-sm-7 btn_brd">
+                            <button type="button" class="btn btn-primary btn_centr">ПОЧАТИ КУРС /></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4" >
+                    <span class="col_bl un_line">Схема курса</span>
+                </div>
+            </div>
+
+            <!--блоки "Для кого" и "Модули"------------------------------------------------------->
+            <div class="row">
+                <!--блок "Для кого"--------------------------------------->
+                <div class="col-sm-4 for">
+                    <p>Для кого</p>
+                    <ul>
+                        <li>Для тих хто має намір отримати реальну роботу, знайти себе...
+                            <a href="#">детальніше...</a>
+                        </li>
+                    </ul>
+
+                    <p>Чого навчишся</p>
+                    <ul>
+                        <li>аналізувати поставлені задачі
+                            <a href="#">детальніше...</a>
+                        </li>
+                    </ul>
+                    <p>Що отримаєш</p>
+                    <ul>
+                        <li>в першу чергу усвідомлення простих істин:"немає нічого неможливого"
+                            <a href="https://htmlacademy.ru">детальніше...</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--блок "Модули"------------------------------------------------------->
+                <div class="col-sm-8 moduleList">
+                    <!--<hr>-->
+                    <h2>Модулі</h2>
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 1. Вступ до програмування</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 26 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 2. Елементарна математика</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 35 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 3. Алгоритмізація і програмування на мові С</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 46 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 4. Елементи вищої математики</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 60 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 5. Комп'ютерні мережі. Основи</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 56 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 7. Дискретна математика для інтернет-програмістів</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 119 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 8. Бази даних. Основи</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 70 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 9. Бази даних для інтернет-програмістів</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 63 дні.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 10. Програмування на PHP (Частина 1)</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 53 дні.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 11. Регулярні вирази</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 0 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 12. Програмування на PHP (Частина 2)</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 70 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 13. Верстка на HTML, CSS (Частина 1)</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 39 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 14. Верстка на HTML, CSS (Частина 2)</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 46 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 15. Програмування на JavaScript</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 39 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 16. Програмування на JavaScript (Частина 2)</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 9 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 17. Сучасні технології розробки програм (ІП, РНР)</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 0 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#" class="moduleLink">
+                        <div class="moduleItem">
+                            <span class="moduleOrder">Модуль 18. Командний дипломний проект (ІП, РНР)</span>
+                            <div class="moduleProgress">
+                                <span>Рекомендований час: 0 днів.</span>
+                                <img class="ng-scope" src="img/disabled.png">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--side bar right (empty)--------------------------------------------->
+        <div class="col-sm-2 sidenav">
+        </div>
+
+    </div>
+</div>
+
+<!--<footer class="container-fluid text-center">-->
+    <!--<p>Footer Text</p>-->
+<!--</footer>-->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<div class ="footer">
+    <div class="row">
+        <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
+        <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+            <div class="row footer-content">
+                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 social-button">
+                    <div>
+                        <a href="http://twitter.com/minimalmonkey" class="icon-button"><i class="fa fa-twitter"></i><span></span></a>
+                        <a href="http://youtube.com" class="icon-button"><i class="fa fa-youtube"></i><span></span></a>
+                        <a href="http://plus.google.com" class="icon-button"><i class="fa fa-google-plus"></i><span></span></a>
+                        <a href="http://facebook.com" class="icon-button"><i class="fa fa-facebook"></i><span></span></a>
+                        <a href="https://www.linkedin.com" class="icon-button"><i class="fa fa-linkedin"></i><span></span></a>
+                        <a href="https://www.vk.com" class="icon-button"><i class="fa fa-bold"></i><span></span></a>
+                    </div>
+                </div>
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 content">
+                    <div class = "row">
+                        <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3 footer-logo">
+                            <img src="img/Logo_small.png">
+                        </div>
+                        <div class = "col-xs-3 col-sm-3 col-md-3 col-lg-3 footer-info">
+                            <p>телефон: +38 0432 52 82 67</p>
+                            <p>тел. моб. +38 067 431 19 21</p>
+                            <p>ел. пошта: intita.hr@gmail.com</p>
+                            <p>скайп: int.ita</p>
+                        </div>
+                        <div class = "col-xs-6 col-sm-6 col-md-6 col-lg-6 footer-menu">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Курси</a></li>
+                                <li><a href="#">Викладачі</a></li>
+                                <li><a href="#">Випускники</a></li>
+                                <li><a href="#">Форум</a></li>
+                                <li><a href="#">Про нас</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 button-up">
+                    <a href="#" onclick="goUp()"><img src="img/go_up.png"></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-sm-1"></div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+<script src="js/drop-down-menu.js"></script>
+<!-- <script src="js/dropdown-menu.js"></script> -->
+<script type="text/javascript" src="script/goToTop.js"></script>
+<div id="rocket" style="top: -210px; left: 404.5px; display: block;">
+    <img src="img/rocket.png">
+</div>
+<div id="exhaust" style="display: none; top: 3179.02px; left: 174.5px;">
+    <img src="img/exhaust.png">
+</div>
+
+
+</body>
+</html>
